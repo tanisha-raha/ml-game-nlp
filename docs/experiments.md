@@ -19,3 +19,9 @@ Include 2–4 short snippets here that contrast temp/top_p.
 - Try longer `max_new_tokens` for quests.
 - Swap in a slightly larger model for richer vocabulary if time permits.
 
+## What I’d Do Next
+- Try a larger language model (still CPU-friendly) for richer lore generation.  
+- Add more parameter sweeps (e.g., `repetition_penalty`, longer context windows).  
+- Build a simple web UI that connects to the FastAPI backend for interactive testing.  
+- Add background task handling (so multiple generations can run without blocking).  
+- Extend beyond text into the preferred 3D track — e.g., integrate lightweight mesh/texturing pipelines or hook into existing 3D generation models to combine lore with assets.  
