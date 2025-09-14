@@ -25,6 +25,9 @@ ml-game-nlp/
 └── README.md
 ```
 
+![API running](docs/api-swagger.png)
+
+
 ### Results
 - Sample outputs: see `outputs/samples/`
 - Parameter sweep CSV: `outputs/experiments/lore_grid.csv`
