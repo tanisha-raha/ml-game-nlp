@@ -25,6 +25,11 @@ ml-game-nlp/
 └── README.md
 ```
 
+### Results
+- Sample outputs: see `outputs/samples/`
+- Parameter sweep CSV: `outputs/experiments/lore_grid.csv`
+- Short notes: `docs/experiments.md`
+
 
 ## Setup
 ```bash
