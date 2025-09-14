@@ -11,6 +11,7 @@ The first focus is on **fantasy text generation** — lore snippets, quest hooks
 - Experiment framework with parameter sweeps and CSV logging
 
 ## Project Structure
+```
 ml-game-nlp/
 ├── src/
 │ ├── app.py # FastAPI app + routes
@@ -22,15 +23,20 @@ ml-game-nlp/
 ├── outputs/ # Saved generations and CSV experiment logs
 ├── docs/ # Experiment notes and reports
 └── README.md
+```
+
 
 ## Setup
-
-Clone the repo and install dependencies:
-
 ```bash
+# Clone the repo
 git clone https://github.com/tanisha-raha/ml-game-nlp.git
 cd ml-game-nlp
+
+# Create a virtual environment
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # Mac/Linux
+# or .venv\Scripts\activate on Windows
+
+# Install dependencies
 pip install -r requirements.txt
 
