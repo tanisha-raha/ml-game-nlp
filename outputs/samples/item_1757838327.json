@@ -1,0 +1,24 @@
+{
+  "type": "item",
+  "content_params": {
+    "place": "Ebonridge Keep",
+    "tone": "somber",
+    "level": 8,
+    "biome": "Crystal Marsh",
+    "name": "Aetherglass Dagger",
+    "n": 8,
+    "faction": "Verdant Wardens"
+  },
+  "gen_params": {
+    "max_new_tokens": 120,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "top_k": 50,
+    "repetition_penalty": 1.1,
+    "seed": 11
+  },
+  "model": "distilgpt2",
+  "runtime_sec": 2.14,
+  "prompt": "You write game ready text. Keep it vivid, coherent, and safe for all audiences.\n\nDescribe a rare item named Aetherglass Dagger. Include rarity, effect, drawback, and a short usage tip.\n\nOutput:",
+  "text": "You write game ready text. Keep it vivid, coherent, and safe for all audiences.\n\nDescribe a rare item named Aetherglass Dagger. Include rarity, effect, drawback, and a short usage tip.\n\nOutput: 7"
+}

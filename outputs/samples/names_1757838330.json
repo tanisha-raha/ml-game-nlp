@@ -1,0 +1,24 @@
+{
+  "type": "names",
+  "content_params": {
+    "place": "Ebonridge Keep",
+    "tone": "somber",
+    "level": 8,
+    "biome": "Crystal Marsh",
+    "name": "Aetherglass Dagger",
+    "n": 8,
+    "faction": "Verdant Wardens"
+  },
+  "gen_params": {
+    "max_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "top_k": 50,
+    "repetition_penalty": 1.1,
+    "seed": 3
+  },
+  "model": "distilgpt2",
+  "runtime_sec": 2.42,
+  "prompt": "You write game ready text. Keep it vivid, coherent, and safe for all audiences.\n\nGenerate 8 fantasy character names for the Verdant Wardens faction. One per line.\n\nOutput:",
+  "text": "You write game ready text. Keep it vivid, coherent, and safe for all audiences.\n\nGenerate 8 fantasy character names for the Verdant Wardens faction. One per line.\n\nOutput:"
+}
